@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="index.css" rel="stylesheet">
+    <title>Lab1</title>
+</head>
+<body>
+<header class="textContainer mottoContainer" id="header">
+    <div class="mottoLayout">
+        <h2 class="motto">OpenGL API</h2>
+        <a href="https://en.wikipedia.org/wiki/OpenGL">Source</a>
+    </div>
+</header>
+<nav class="textContainer sideContainer centerColumnAlignedContent leftAlignedContent" id="menu">
+    <menu>
+        <li><a href="index.html">What is OpenGL</a></li>
+        <li><a href="openGL_design.html">Design</a></li>
+        <li><a href="industry_support.html">Industry support</a></li>
+        <li><a href="vulkan.html">Vulkan</a></li>
+        <li><a href="app_examples.html">Apps</a></li>
+    </menu>
+</nav>
+<div class="textContainer centerColumnAlignedContent rightAlignedContent" id="brief">
+    <h3>OpenGL design</h3>
+</div>
+<article class="textContainer articleImageLayout" id="article">
+    <div class="centerColumnAlignedContent leftAlignedContent">
+        <p>The OpenGL specification describes an abstract application programming interface (API) for
+            drawing 2D and 3D graphics. It is designed to be implemented mostly or entirely using hardware
+            acceleration such as a GPU, although it is possible for the API to be implemented entirely in software
+            running on a CPU. The API is defined as a set of functions which may be called by the client
+            program, alongside a set of named integer constants (for example, the constant GL_TEXTURE_2D,
+            which corresponds to the decimal number 3553). Although the function definitions are superficially
+            similar to those of the programming language C, they are language-independent. As such, OpenGL
+            has many language bindings, some of the most noteworthy being the JavaScript binding WebGL
+            (API, based on OpenGL ES 2.0, for 3D rendering from within a web browser); the C bindings WGL,
+            GLX and CGL; the C binding provided by iOS; and the Java and C bindings provided by Android.
+            In addition to being language-independent, OpenGL is also cross-platform. The specification says
+            nothing on the subject of obtaining and managing an OpenGL context, leaving this as a detail
+            of the underlying windowing system. For the same reason, OpenGL is purely concerned with rendering,
+            providing no APIs related to input, audio, or windowing.</p>
+    </div>
+    <div class="centerColumnAlignedContent leftAlignedContent">
+        <img class="articleImage" src="images/openGL_sample.png" alt="OpenGL Code Sample">
+    </div>
+</article>
+<div class="textContainer sideContainer centerColumnAlignedContent leftAlignedContent" id="sideBar">
+    <a href="https://www.khronos.org/opengl/"><img class="sideBarImage" src="images/openGL_icon.png" alt="OpenGL Icon"></a>
+</div>
+<footer class="textContainer mottoContainer" id="footer">
+    <div class="mottoLayout">
+        <a href="https://www.khronos.org/opengl/wiki/Getting_Started">Getting started</a>
+        <h2 class="motto">OpenGL API</h2>
+    </div>
+</footer>
+</body>
+</html>
