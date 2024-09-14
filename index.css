@@ -6,7 +6,7 @@ body {
         "links article sideBar"
         "footer footer footer";
     grid-template-columns: minmax(80px, 0.15fr) 1fr minmax(80px, 0.15fr);
-    grid-template-rows: 0.15fr minmax(50px, auto) auto 0.15fr;
+    grid-template-rows: 80px minmax(50px, auto) auto 80px;
     min-height: 100vh;
     height: auto;
     margin: 0;
@@ -85,8 +85,11 @@ menu {
     background-color: #94d8ff;
     padding-left: 3%;
     padding-right: 3%;
-    max-height: 20vh;
     overflow-y: clip;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .sideContainer {
@@ -133,12 +136,4 @@ menu {
     flex-direction: row;
     justify-content: left;
     padding: 0;
-}
-
-.mottoLayout {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
 }
