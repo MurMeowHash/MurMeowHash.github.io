@@ -9,36 +9,46 @@
 <header class="textContainer mottoContainer" id="header">
     <div class="mottoLayout">
         <h2 class="motto">OpenGL API</h2>
-        <a href="https://en.wikipedia.org/wiki/OpenGL">Source</a>
+        <menu>
+            <li><a href="index.html">What is OpenGL</a></li>
+            <li><a href="openGL_design.html">Design</a></li>
+            <li><a href="industry_support.html">Industry support</a></li>
+            <li><a href="vulkan.html">Vulkan</a></li>
+            <li><a href="app_examples.html">Apps</a></li>
+        </menu>
     </div>
 </header>
-<nav class="textContainer sideContainer centerColumnAlignedContent leftAlignedContent" id="menu">
-    <menu>
-        <li><a href="index.html">What is OpenGL</a></li>
-        <li><a href="openGL_design.html">Design</a></li>
-        <li><a href="industry_support.html">Industry support</a></li>
-        <li><a href="vulkan.html">Vulkan</a></li>
-        <li><a href="app_examples.html">Apps</a></li>
-    </menu>
+<nav class="textContainer sideContainer centerColumnAlignedContent leftAlignedContent" id="links">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel diam magna. Vestibulum maximus
+        nibh in sollicitudin consectetur. Phasellus eget nibh ut sapien interdum maximus. Nulla facilisi.
+        Nunc congue et sem nec ullamcorper. Pellentesque elit justo, dictum non molestie ac, placerat in ligula.
+        Fusce ac metus ac turpis volutpat consequat. Vivamus vehicula tempor purus, sit amet vulputate massa.
+        Donec lacinia, purus id molestie accumsan, ligula sem cursus enim, et dignissim nunc lacus sed sapien.
+        Proin congue, risus id aliquet sodales, diam magna bibendum lorem, vitae fermentum ipsum mi ac justo.
+        Ut dui ligula, congue et odio sed, maximus efficitur orci.</p>
 </nav>
 <div class="textContainer centerColumnAlignedContent rightAlignedContent" id="brief">
-    <h3>Some games made with OpenGL</h3>
+    <h3>What is OpenGL and it's contributors</h3>
 </div>
 <article class="textContainer articleImageLayout" id="article">
     <div class="centerColumnAlignedContent leftAlignedContent">
-        <p>OpenGL has been widely used in the development of numerous games, both classic and modern,
-            across different platforms. Notable examples include the critically acclaimed Quake series
-            by id Software, which set a new standard for 3D gaming and real-time rendering with its use
-            of OpenGL. Another iconic title, Minecraft, uses OpenGL to handle its blocky graphics and vast,
-            procedurally generated worlds. Popular game engines like Unity and Unreal Engine also support OpenGL,
-            enabling a broad range of games to utilize its rendering capabilities, from indie hits to AAA titles
-            like Doom (2016) and No Man’s Sky. OpenGL’s cross-platform flexibility has made it an integral part of
-            game development, especially for titles seeking to run on Windows, macOS, and Linux systems.
-            Its open standard and support for both 2D and 3D graphics have kept it relevant in various gaming
-            environments over the years.</p>
+        <p>The OpenGL specification describes an abstract application programming interface (API) for
+            drawing 2D and 3D graphics. It is designed to be implemented mostly or entirely using hardware
+            acceleration such as a GPU, although it is possible for the API to be implemented entirely in software
+            running on a CPU. The API is defined as a set of functions which may be called by the client
+            program, alongside a set of named integer constants (for example, the constant GL_TEXTURE_2D,
+            which corresponds to the decimal number 3553). Although the function definitions are superficially
+            similar to those of the programming language C, they are language-independent. As such, OpenGL
+            has many language bindings, some of the most noteworthy being the JavaScript binding WebGL
+            (API, based on OpenGL ES 2.0, for 3D rendering from within a web browser); the C bindings WGL,
+            GLX and CGL; the C binding provided by iOS; and the Java and C bindings provided by Android.
+            In addition to being language-independent, OpenGL is also cross-platform. The specification says
+            nothing on the subject of obtaining and managing an OpenGL context, leaving this as a detail
+            of the underlying windowing system. For the same reason, OpenGL is purely concerned with rendering,
+            providing no APIs related to input, audio, or windowing.</p>
     </div>
     <div class="centerColumnAlignedContent leftAlignedContent">
-        <img class="articleImage" src="images/game_snap.png" alt="Game snap">
+        <img class="articleImage" src="images/game_snap.png" alt="OpenGL Example">
     </div>
 </article>
 <div class="textContainer sideContainer centerColumnAlignedContent leftAlignedContent" id="sideBar">
